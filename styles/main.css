@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 15px 20px;
+  color: white;
+  background-color: lightseagreen;
+  position: sticky;
+}
+
+.header > h1 {
+  max-width: 56rem;
+  margin: auto;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content__users {
+  max-width: 56rem;
+  margin: auto;
+}
+
+.card {
+  padding: 10px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin: 15px 0;
+}
